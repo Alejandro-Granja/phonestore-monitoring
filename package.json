@@ -1,0 +1,14 @@
+{
+  "name": "phonestore-monitoring",
+  "version": "1.0.0",
+  "description": "Microservicio de monitoreo para PhoneStore",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "prom-client": "^15.1.0"
+  }
+}
